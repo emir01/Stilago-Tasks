@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stilago.TableRender.Web", "Stilago.TableRender.Web\Stilago.TableRender.Web.csproj", "{00E705D2-D1C4-4CB3-9EBC-2E265E71D5F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TableRender", "TableRender", "{9F22C37F-D251-4950-8EE7-0FBD67B54A56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RSSFeed", "RSSFeed", "{848BA374-0151-4853-A533-55D8DCB9ADBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileUpload", "FileUpload", "{C81DA196-28C9-442F-8EAF-47E97FC37FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stilago.RssFeed.Web", "Stilago.RssFeed.Web\Stilago.RssFeed.Web.csproj", "{8EE6099A-6E4F-4666-843E-7E4C18CF9F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stilago.FileUpload.Web", "Stilago.FileUpload.Web\Stilago.FileUpload.Web.csproj", "{88F678A9-B3CD-485C-8FF7-9C62531FA6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stilago.FileUpload.DbAccess", "Stilago.FileUpload.DbAccess\Stilago.FileUpload.DbAccess.csproj", "{E8FD3255-9B8F-4B43-B955-D2B4B6C463EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stilago.FileUpload.Domain", "Stilago.FileUpload.Domain\Stilago.FileUpload.Domain.csproj", "{7F26B20B-D912-4792-B7A9-2D92F21B8FAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E705D2-D1C4-4CB3-9EBC-2E265E71D5F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E705D2-D1C4-4CB3-9EBC-2E265E71D5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E705D2-D1C4-4CB3-9EBC-2E265E71D5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E705D2-D1C4-4CB3-9EBC-2E265E71D5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE6099A-6E4F-4666-843E-7E4C18CF9F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE6099A-6E4F-4666-843E-7E4C18CF9F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE6099A-6E4F-4666-843E-7E4C18CF9F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE6099A-6E4F-4666-843E-7E4C18CF9F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F678A9-B3CD-485C-8FF7-9C62531FA6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F678A9-B3CD-485C-8FF7-9C62531FA6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F678A9-B3CD-485C-8FF7-9C62531FA6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F678A9-B3CD-485C-8FF7-9C62531FA6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FD3255-9B8F-4B43-B955-D2B4B6C463EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FD3255-9B8F-4B43-B955-D2B4B6C463EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FD3255-9B8F-4B43-B955-D2B4B6C463EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FD3255-9B8F-4B43-B955-D2B4B6C463EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F26B20B-D912-4792-B7A9-2D92F21B8FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F26B20B-D912-4792-B7A9-2D92F21B8FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F26B20B-D912-4792-B7A9-2D92F21B8FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F26B20B-D912-4792-B7A9-2D92F21B8FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00E705D2-D1C4-4CB3-9EBC-2E265E71D5F2} = {9F22C37F-D251-4950-8EE7-0FBD67B54A56}
+		{8EE6099A-6E4F-4666-843E-7E4C18CF9F86} = {848BA374-0151-4853-A533-55D8DCB9ADBF}
+		{88F678A9-B3CD-485C-8FF7-9C62531FA6B8} = {C81DA196-28C9-442F-8EAF-47E97FC37FA4}
+		{E8FD3255-9B8F-4B43-B955-D2B4B6C463EA} = {C81DA196-28C9-442F-8EAF-47E97FC37FA4}
+		{7F26B20B-D912-4792-B7A9-2D92F21B8FAB} = {C81DA196-28C9-442F-8EAF-47E97FC37FA4}
+	EndGlobalSection
+EndGlobal

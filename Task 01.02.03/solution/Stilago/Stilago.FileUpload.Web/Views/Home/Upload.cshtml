@@ -1,0 +1,18 @@
+﻿@using Stilago.FileUpload.Web.Utilities
+@model Stilago.FileUpload.Web.Models.UploadFileResultRenderViewModel
+
+
+<div class="row">
+    <div class="col-md-12 text-center">
+        
+        <h1 class="@Html.GetUploadClassForFlag(Model.UploadStatus)">@Model.UploadShortMessage</h1>
+
+        <h3>@Model.Message</h3>
+
+    </div>
+</div>
+
+<div class="row text-center">
+    <a class="btn btn-primary" href="@Url.Action("Index","Home")">Upload another file!</a>
+</div>
+

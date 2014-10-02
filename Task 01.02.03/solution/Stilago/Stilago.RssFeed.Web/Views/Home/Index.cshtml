@@ -1,0 +1,22 @@
+﻿
+<div class="row">
+    <div class="col-md-12">
+
+        <h2 class="text-center">Zadnje Novice</h2>
+        <p class="text-center"><button class="btn btn-lg" id="btn-refresh-news">Osveži Novice</button></p>
+        <p class="text-center">Za več informacij kliknite <a href="http://www.rtvslo.si/novice/">tukaj!</a></p>
+
+        <div id="feed"></div>
+    </div>
+</div>
+
+@* We are going to be using a third party RSS feed javascript plugin. *@
+
+@section scripts
+{
+    <script type="text/javascript">
+        $(function () {
+            StilagoRSS.App.InitStilagoRssApp();
+        })
+    </script>
+}

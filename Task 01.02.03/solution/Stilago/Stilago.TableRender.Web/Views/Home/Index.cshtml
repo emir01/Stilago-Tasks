@@ -1,0 +1,36 @@
+﻿@using Stilago.TableRender.Web.Utilities.Helper
+@model Stilago.TableRender.Web.Models.RandomTableModel
+@{
+    ViewBag.Title = "Stilago Random Table";
+}
+
+<div class="row">
+    <div class="col-md-12">
+
+        <h2>Random Table :</h2>
+
+        <table class="table table-striped table-bordered">
+
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Random numbers</th>
+                    <th>Suma</th>
+                    <th>Suma 2</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var row in Model.Rows)
+                {
+                    <tr>
+                        <td>@row.RowOrder</td>
+                        <td>@row.RandomNumber</td>
+                        <td>@Html.GenerateSumationString(row.FirstSumComponents)</td>
+                        <td>@Html.GenerateSumationString(row.SecondSumComponents)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
